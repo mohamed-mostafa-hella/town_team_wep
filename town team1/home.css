@@ -1,0 +1,153 @@
+.head{
+    background: #ddd;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    z-index: 5;
+}
+h1,body{
+    margin: 0px;
+    padding: 0px;
+}
+h1 a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.3em;
+}
+h1{
+    padding: 1%;
+}
+.head h1,.head ul,li{
+    display: inline-block;
+}
+.down{
+    display: inline-block;
+    position: relative;   
+}
+.down-content{
+    display: none;
+    position: absolute;
+    background: #4f4f5f;
+    min-height: 100px;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.down-content a{
+    display: block;
+    
+}
+}
+.down-content a{
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    margin: 10px;
+}
+.down:hover .down-content{
+    display: block;
+}
+.head ul{
+    float: right;
+    margin: 20px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    background: #4f4f5f;
+}
+li .hh{
+    padding: 8px 12px;
+}
+li:hover .hh,.down-content a:hover{
+    background: #f00;
+}
+.img-home{
+    width: 100%;
+    height: auto;
+    min-width: 20%;
+    max-width: 100%;
+    min-height: auto;
+    max-height: auto;
+}
+h3{
+    font-size: 30px;
+    padding: 100px 10px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: arial,"Times New Roman", Times , serif;
+    letter-spacing: 0.6em;
+    background: #ddd;
+    clear: both;
+}
+.shirt{
+    position: relative;
+    margin: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+.img-shirt{
+    width: 130%;
+    height: 120%;
+   
+}
+span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    background: #000;
+    margin: 7px;
+    padding: 7px;
+    font-size: 20px;
+}
+.img-about{
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-right: 5px double #000;
+}
+.about p{
+    display: inline-block;
+    float: right;
+    width: 60%;
+    margin: 20px;
+    text-align: center;
+}
+.contat p{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+input{
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+.submit{
+    background: #4f4f5f;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin: 3px;
+    cursor: pointer;
+}
+.footer{
+    background: #ddd;
+    margin:9px 0px;
+    padding: 15px 0px;
+}
+.footer p{
+    text-align: center;
+}
